@@ -1,12 +1,22 @@
 <a href="https://fontmeme.com/ben-10-font/"><img src="https://fontmeme.com/permalink/220615/a104da11aabf99c44433306f7cd6e9d8.png" alt="ben-10-font" border="0"></a>
 
+
 ![At'choo Banner](AtchooClient/wwwroot/img/banner-small.png)
 
 #### By Meron Tekie, Mark McConnel, Caleb Coughenour, Marcus Lorenzo, Jake Edgar, and Evgeniya Meshuris
 
-## A web application for an allergy-themed dating app 
+A web application for an allergy-themed dating app
 
-## 🖥️ Technologies Used 
+___
+
+### Gif below shows:
+Account Creation, Login Authentication, Relationships established with allergy attributes. CRUD for properties and users.
+
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/100096239/177938876-01cf7ae9-2589-48ef-ba30-c0a00c4eed96.gif)
+
+
+
+### 🖥️ Technologies Used 
 
 <br><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="60" height="60"/> 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-plain-wordmark.svg" width="60" height="60"/>
