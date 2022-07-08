@@ -5,10 +5,14 @@
 
 #### By Meron Tekie, Mark McConnel, Caleb Coughenour, Marcus Lorenzo, Jake Edgar, and Evgeniya Meshuris
 
-### A web application for an allergy-themed dating app 
+A web application for an allergy-themed dating app
 
+___
 
-![ezgif com-gif-maker (3)](https://user-images.githubusercontent.com/100096239/177896274-19741eb6-9c19-4eed-9f5c-e57fc4ad1a5e.gif)
+### Gif below shows:
+Account Creation, Login Authentication, Relationships established with allergy attributes. CRUD for properties and users.
+
+![ezgif com-gif-maker (4)](https://user-images.githubusercontent.com/100096239/177938876-01cf7ae9-2589-48ef-ba30-c0a00c4eed96.gif)
 
 
 
