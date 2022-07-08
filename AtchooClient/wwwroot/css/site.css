@@ -44,7 +44,7 @@ body {
   margin: 0 vw;
   margin-top: 5vh;
   /* margin-bottom: 60px; */
-  background-color: rgb(242, 238, 238);
+  background-color: rgb(255, 255, 255);
   gap: 5vh;
 }
 
@@ -303,6 +303,7 @@ UserProfile Card Allergy Details
   border-width: 2px;
   /* border-color: black; */
   text-align: center;
+  box-shadow: 0 0px 2px 3px rgba(0, 0, 0, 0.6);
 }
 
 .card-title {
