@@ -40,7 +40,7 @@ namespace AtchooClient.Controllers
             }
             else
             {
-                return View();
+                return View("Index", "UserProfiles");
             }
         }
         public ActionResult Login()
@@ -54,7 +54,7 @@ namespace AtchooClient.Controllers
             Microsoft.AspNetCore.Identity.SignInResult result = await _signInManager.PasswordSignInAsync(model.UserName, model.Password, isPersistent: true, lockoutOnFailure: false);
             if (result.Succeeded)
             {
-                return RedirectToAction("Index", "Home", "Home");
+                return RedirectToAction("Index", "UserProfiles");
             }
             else
             {

@@ -13,7 +13,7 @@
 
             @using (Html.BeginForm("Create","UserProfiles",FormMethod.Post,new {enctype ="multipart/form-data"}))
             {
-              <div class = "form" style="width: 200%;">
+              <div class = "card form" style="width: 300%;" id="create-form">
 
                 @Html.LabelFor(model => model.Name)
                 @Html.TextBoxFor(model => model.Name, new { required = "required" })

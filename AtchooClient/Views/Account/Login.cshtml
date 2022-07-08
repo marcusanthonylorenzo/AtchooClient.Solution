@@ -13,7 +13,7 @@
 
                 @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class="form-wrap" }))
                 {
-                    <div class="form">
+                    <div class="card">
                         @Html.LabelFor(user => user.UserName)
                         @Html.TextBoxFor(user=> user.UserName)
 

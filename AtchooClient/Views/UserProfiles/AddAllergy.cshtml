@@ -1,14 +1,18 @@
 @model AtchooClient.Models.UserProfile
 
 
-<h4>Add an Allergy to your profile @Html.DisplayFor(model => model.Name)</h4>
+<h4>Add more allergies for @Html.DisplayFor(model => model.Name)</h4>
 
-@using (Html.BeginForm())
-{
-  @Html.HiddenFor(model => model.UserProfileId)
+<div class="card" style="width: 50%; display: flex; flex-direction: column;">
 
-  @Html.Label("Select Allergy")
-  @Html.DropDownList("UserAllergyId")
+  @using (Html.BeginForm())
+  {
+    @Html.HiddenFor(model => model.UserProfileId)
 
-  <input type="submit" value="Save" class="btn btn-primary"/>
-}
+    @Html.Label("")
+    @Html.DropDownList("UserAllergyId")
+
+    <input type="submit" value="Save" class="button" style="margin-left: 3%;">
+  }
+
+</div>

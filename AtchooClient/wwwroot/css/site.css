@@ -27,7 +27,7 @@ Universal Color Palette
   --sneeze-green: #7aa231;
   --yuck-grey: #b4bcba;
   --dark-blue: #0a0b36;
-  --beige: #f7dba7;
+  --beige: #fff0cd;
   --light-purple: #26277caa;
 }
 
@@ -41,15 +41,16 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 vw;
   margin-top: 5vh;
   /* margin-bottom: 60px; */
-  background-color: #26277c93;
+  background-color: rgb(242, 238, 238);
   gap: 5vh;
 }
 
 h2.splash-intro, .user-page h3 {
   padding-top: 1.1rem;
-  color: aliceblue;
+  color: rgb(33, 62, 86);
   transform: scale(1.3);
 }
 
@@ -211,9 +212,9 @@ footer .container {
 }
 
 .form-wrap {
-  background-color: var(--dark-blue);
-  height: 50%;
-  width: 24vh;
+  background-color: rgba(18, 23, 58, 0.83);
+  height: 50vh;
+  width: 26vh;
   padding: 1%;
   border-radius: 30px 5px 30px 5px;
 }
@@ -228,11 +229,11 @@ footer .container {
 
 .form-wrap button {
   margin-left: 24%;
-  margin-top: -8%;
+  margin-top: 10%;
 }
 
 .form {
-  background-color: var(--beige);
+  background-color: rgb(255, 244, 244);;
   display: flex;
   width: 100%;
   height: 90%;
@@ -247,6 +248,17 @@ footer .container {
 .form input {
   margin: 2%;
 }
+
+#create-form {
+  display: flex;
+  position: relative;
+  margin-top: -20%;
+  margin-left: -28%;
+  background-color: rgba();
+  padding: 10%;
+  transform: scale(0.8);
+}
+
 
 #logo {
   justify-content: center;
@@ -289,7 +301,7 @@ UserProfile Card Allergy Details
   
   border-style: solid;
   border-width: 2px;
-  border-color: black;
+  /* border-color: black; */
   text-align: center;
 }
 
@@ -328,7 +340,7 @@ UserAllergies
 }
 
 .allergy-page h1 {
-  color: aliceblue;
+  color: rgb(126, 148, 167);
   
 }
 
@@ -488,7 +500,8 @@ Nav Bar
   left: 0;
   padding: 1%;
   margin-bottom: 5vh;
-  background-color: #26277c93;
+  background-color: #23125a;
+  box-shadow: 0px 1px 1px 3px rgba(50, 50, 50, 0.6);
 }
 
 .topnav {
@@ -584,7 +597,7 @@ Media Querires
     left: 0;
     padding: 5vw;
     /* margin-bottom: 15vh; */
-    background-color: #26277c93;
+    /* background-color: #26277c93; */
   }
 
   .topnav {
